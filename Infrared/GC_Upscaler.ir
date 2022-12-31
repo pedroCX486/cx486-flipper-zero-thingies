@@ -1,0 +1,38 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: UP
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 87 00 00 00
+# 
+name: DOWN
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 86 00 00 00
+# 
+name: LEFT
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 0A 00 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 0B 00 00 00
+# 
+name: ENTER
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 0E 00 00 00
+# 
+name: BACK
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 85 00 00 00
